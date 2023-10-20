@@ -6,6 +6,7 @@ body{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    padding: 20px 30px;
 }
 h1{
     font-size: 50px;
@@ -25,10 +26,11 @@ h3{
 .top-item img{
     width: 100%;
 }
-.hire-me{
+.ancor-button{
     text-decoration: none;
     padding: 10px 30px;
-    background-image: linear-gradient(red , orange);
-    border-radius: 10%;
-    color: white;
+    background-color: yellow;
+    border-radius: 84%;
+    color: rgb(0, 0, 0);
+    border: 2px solid yellow;
 }
