@@ -34,3 +34,36 @@ h3{
     color: rgb(0, 0, 0);
     border: 2px solid yellow;
 }
+.middle-area{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px 30px;
+}
+.experience-area{
+    padding: 20px 30px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-items{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding-left:  30px;
+    margin-left: 3% ;
+    box-shadow: 5px 2px 40px gray;
+}
+.full-stack{
+    border-left: 5px solid tomato;
+}
+.baby-web{
+    border-left: 5px solid ;
+}
+.footer{
+  
+    padding: 10px 10px;
+    text-align: center;
+}
